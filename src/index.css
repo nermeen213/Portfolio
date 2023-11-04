@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+ * {
+  text-decoration: none !important;
+  list-style: none !important;
+  box-sizing: border-box;
+ }
+
+
+ .nav {
+  background-color: #2C3E50 !important;
+  
+ }
+ .font {
+  color: #FFFFFF !important;
+ }
+ .hr {
+  width: 90px;
+  height: 4px;
+  background-color: #FFFFFF;
+
+ }
+ .hrr {
+  width: 90px;
+  height: 4px;
+  background-color: #1A252F !important;
+
+ }
+ .footer {
+  background-color: #2C3E50 !important;
+  color: #FFFFFF !important;
+  text-align: center;
+ }
+ .sec {
+  flex-wrap: nowrap !important;
+  flex-direction: column;
+  height: 500px;
+  color: #FFFFFF !important;
+ }
+ .box {
+  background-color: #1ABC9C;
+ }
+ .icon {
+  
+  font-size: 10px !important;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50% ; 
+  
+  margin: 0 5px;
+ }
+ .foot {
+  color: #FFFFFF;
+  height: 85px !important;
+  width: 100%;
+  background-color: #1A252F !important;
+ }
+ .high {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ input {
+  padding: 12px;
+  margin-bottom: 10px !important; 
+  
+ }
+
+ ngb-carousel:focus {
+  outline: none !important;
+}
+.btnn {
+  background-color: #1ABC9C !important;
+  color: #FFFFFF !important;
+}
+.image {
+  position: relative;
+  /* margin: 5px !important; */
+}
+.image:hover .layer {
+  opacity: 1;
+}
+.layer {
+  position: absolute !important;
+  background-color: #1abc9cc4;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+}
+
+.layer i {
+  font-size: 80px !important;
+  color: #FFFFFF;
+  
+}
